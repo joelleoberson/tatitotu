@@ -7,7 +7,97 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <h1>Hello world</h1>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <img src="img/logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <p>Exercer</p>
+        </div>
+        <div class="col-3">
+          <p>Sauvegarder mon défi</p>
+        </div>
+        <div class="col-3">
+          <p>Changer mon défi</p>
+        </div>
+        <div class="col-3">
+          <p>Imprimer le défi</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          <h1>Verbes</h1>
+          <p>Tout supprimer</p>
+          <p>AJOUTER UN VERBE</p>
+          <p>avoir</p>
+          <p>faire</p>
+        </div>
+
+        <div class="col-7">
+          <h1>Themps</h1>
+          <div class="row">
+            <div class="col-4">
+              <p>Tout cocher</p>
+            </div>
+            <div class="col-4 offset-4">Tout décocher</div>
+          </div>
+          <p>INDICATIF</p>
+          <div class="switch-line">
+            <label class="switch">
+              <input type="checkbox" name="conditions" />
+              <div class="switch-wrapper">
+                <div class="switch-inner"></div>
+              </div>
+              Présent
+            </label>
+            <label class="switch">
+              <input type="checkbox" name="conditions" />
+              <div class="switch-wrapper">
+                <div class="switch-inner"></div>
+              </div>
+              Passé composé
+            </label>
+          </div>
+          <div class="switch-line">
+            <label class="switch">
+              <input type="checkbox" name="conditions" />
+              <div class="switch-wrapper">
+                <div class="switch-inner"></div>
+              </div>
+              Imparfait
+            </label>
+            <label class="switch">
+              <input type="checkbox" name="conditions" />
+              <div class="switch-wrapper">
+                <div class="switch-inner"></div>
+              </div>
+              Plus-que-parfait
+            </label>
+          </div>
+          <input type="radio" name="pronouns" value="Tous les pronoms" /> Tous
+          les pronoms <br />
+          <input type="radio" name="pronouns" value="Seulement il / ils" />
+          Seulement il / ils
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <img src="img/logo-2.png" alt="" />
+      <p>Contact:</p>
+      <p>christophe.roulet@edu-vd.ch</p>
+    </footer>
 
     <script src="js/main.js" type="module"></script>
   </body>
