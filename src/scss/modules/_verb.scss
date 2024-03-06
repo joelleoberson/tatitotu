@@ -1,0 +1,33 @@
+.verb {
+  border-radius: 18px;
+  border: 3px solid var(--blanc, #fbf9fd);
+}
+
+.verb h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Almarai;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-bottom: 3px solid var(--blanc, #fbf9fd);
+}
+
+.verb hr {
+  stroke: var(--blanc, #fbf9fd);
+}
+
+.verb p {
+  color: var(--vert, #3e8169);
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 18px;
+  border: 3px solid var(--blanc, #fbf9fd);
+  background: var(--blanc, #fbf9fd);
+  margin: 15px;
+  padding: 30px;
+}

@@ -5,6 +5,12 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -17,81 +23,85 @@
       </div>
     </header>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-3">
-          <p>Exercer</p>
-        </div>
-        <div class="col-3">
-          <p>Sauvegarder mon défi</p>
-        </div>
-        <div class="col-3">
-          <p>Changer mon défi</p>
-        </div>
-        <div class="col-3">
-          <p>Imprimer le défi</p>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <p>Exercer</p>
+          </div>
+          <div class="col-3">
+            <p>Sauvegarder mon défi</p>
+          </div>
+          <div class="col-3">
+            <p>Changer mon défi</p>
+          </div>
+          <div class="col-3">
+            <p>Imprimer le défi</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-5">
-          <h1>Verbes</h1>
-          <p>Tout supprimer</p>
-          <p>AJOUTER UN VERBE</p>
-          <p>avoir</p>
-          <p>faire</p>
-        </div>
-
-        <div class="col-7">
-          <h1>Themps</h1>
-          <div class="row">
-            <div class="col-4">
-              <p>Tout cocher</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-5">
+            <div class="verb">
+              <h2>Verbes</h2>
+              <p>Tout supprimer</p>
+              <p>AJOUTER UN VERBE</p>
+              <p>avoir</p>
+              <p>faire</p>
             </div>
-            <div class="col-4 offset-4">Tout décocher</div>
           </div>
-          <p>INDICATIF</p>
-          <div class="switch-line">
-            <label class="switch">
-              <input type="checkbox" name="conditions" />
-              <div class="switch-wrapper">
-                <div class="switch-inner"></div>
+
+          <div class="col-7">
+            <h2>Themps</h2>
+            <div class="row">
+              <div class="col-4">
+                <p>Tout cocher</p>
               </div>
-              Présent
-            </label>
-            <label class="switch">
-              <input type="checkbox" name="conditions" />
-              <div class="switch-wrapper">
-                <div class="switch-inner"></div>
-              </div>
-              Passé composé
-            </label>
+              <div class="col-4 offset-4">Tout décocher</div>
+            </div>
+            <p>INDICATIF</p>
+            <div class="switch-line">
+              <label class="switch">
+                <input type="checkbox" name="conditions" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Présent
+              </label>
+              <label class="switch">
+                <input type="checkbox" name="conditions" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Passé composé
+              </label>
+            </div>
+            <div class="switch-line">
+              <label class="switch">
+                <input type="checkbox" name="conditions" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Imparfait
+              </label>
+              <label class="switch">
+                <input type="checkbox" name="conditions" />
+                <div class="switch-wrapper">
+                  <div class="switch-inner"></div>
+                </div>
+                Plus-que-parfait
+              </label>
+            </div>
+            <input type="radio" name="pronouns" value="Tous les pronoms" /> Tous
+            les pronoms <br />
+            <input type="radio" name="pronouns" value="Seulement il / ils" />
+            Seulement il / ils
           </div>
-          <div class="switch-line">
-            <label class="switch">
-              <input type="checkbox" name="conditions" />
-              <div class="switch-wrapper">
-                <div class="switch-inner"></div>
-              </div>
-              Imparfait
-            </label>
-            <label class="switch">
-              <input type="checkbox" name="conditions" />
-              <div class="switch-wrapper">
-                <div class="switch-inner"></div>
-              </div>
-              Plus-que-parfait
-            </label>
-          </div>
-          <input type="radio" name="pronouns" value="Tous les pronoms" /> Tous
-          les pronoms <br />
-          <input type="radio" name="pronouns" value="Seulement il / ils" />
-          Seulement il / ils
         </div>
       </div>
-    </div>
+    </main>
 
     <footer>
       <img src="img/logo-2.png" alt="" />
