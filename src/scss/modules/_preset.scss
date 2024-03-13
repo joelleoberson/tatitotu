@@ -10,4 +10,37 @@
   line-height: normal;
   text-align: center;
   display: block;
+  width: 276px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 83px;
+  text-decoration: none;
+}
+
+.preset a:hover {
+  color: var(--rose, #ffb8d2);
+  text-align: center;
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 7px;
+  border: 1px solid var(--rose, #ffb8d2);
+  background: var(--rose, #3e8169);
+}
+
+.preset-ex a {
+  border-radius: 7px;
+  background: var(--jaune, #fcf150);
+}
+
+.preset-ex a:hover {
+  color: #fcf150;
+  border-radius: 7px;
+  border: 1px solid var(--jaune, #fcf150);
+  background: var(--rose, #3e8169);
 }
