@@ -24,13 +24,33 @@
     </header>
 
     <main>
+      <div class="class">
+        <div class="container">
+          <div class="col-9">
+            <div class="class_a">
+              <a href="#">5P</a>
+              <a href="#">6P</a>
+              <a href="#">7H</a>
+              <a href="#">8H</a>
+              <a href="#">9H</a>
+              <a href="#">10H</a>
+              <a href="#">11H</a>
+              <a href="#">Par groupe</a>
+              <a href="#">Difficiles</a>
+              <a href="#">Pronominaux</a>
+              <a href="#">CIF (FLE)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="preset">
         <div class="container">
           <div class="row">
             <div class="col-3">
               <div class="preset-ex">
-              <a href="#">Exercer</a>
-            </div>
+                <a href="#">Exercer</a>
+              </div>
             </div>
             <div class="col-3">
               <a href="#">Sauvegarder mon défi</a>
@@ -53,7 +73,12 @@
               <p class="delete">Tout supprimer</p>
               <div>
                 <form>
-                  <input type="text" id="zoneDeTexte" name="zoneDeTexte" placeholder="AJOUTE UN VERBE">
+                  <input
+                    type="text"
+                    id="zoneDeTexte"
+                    name="zoneDeTexte"
+                    placeholder="AJOUTE UN VERBE"
+                  />
                 </form>
               </div>
               <div class="choice"><p>avoir</p></div>
@@ -195,6 +220,7 @@
                     <div class="temps-switch-inner"></div>
                   </div>
                   <p>Présent</p>
+                </label>
               </div>
               <div class="temps-switch-line">
                 <label class="temps-switch">
@@ -249,11 +275,15 @@
                 </label>
               </div>
               <div class="temps-radio">
-              <input type="radio" name="pronouns" value="Tous les pronoms" />
-              Tous les pronoms <br />
-              <input type="radio" name="pronouns" value="Seulement il / ils" />
-              Seulement il / ils
-            </div>
+                <input type="radio" name="pronouns" value="Tous les pronoms" />
+                Tous les pronoms <br />
+                <input
+                  type="radio"
+                  name="pronouns"
+                  value="Seulement il / ils"
+                />
+                Seulement il / ils
+              </div>
             </div>
           </div>
         </div>
@@ -261,9 +291,13 @@
     </main>
 
     <footer>
-      <img src="img/logo-2.png" alt="" />
-      <p>Contact:</p>
-      <p>christophe.roulet@edu-vd.ch</p>
+      <div class="container">
+        <div class="col-12">
+          <img src="img/logo-2.png" alt="" />
+          <p>Contact:</p>
+          <p>christophe.roulet@edu-vd.ch</p>
+        </div>
+      </div>
     </footer>
 
     <script src="js/main.js" type="module"></script>
