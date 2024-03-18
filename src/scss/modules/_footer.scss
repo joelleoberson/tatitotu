@@ -27,3 +27,8 @@ footer a {
 footer a:hover {
   color: var(--vert, #3e8169);
 }
+
+.footer-admin {
+  display: flex;
+  gap: 15px;
+}

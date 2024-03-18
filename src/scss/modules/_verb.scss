@@ -27,10 +27,15 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.choice {
   border-radius: 18px;
   border: 3px solid var(--blanc, #fbf9fd);
   background: var(--blanc, #fbf9fd);
-  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
   padding: 30px;
 }
 
@@ -45,7 +50,7 @@
   opacity: 0.56;
   text-align: right;
   padding-top: 13px;
-  padding-right: 29px;
+  padding-bottom: 20px;
 }
 
 .verb input {
@@ -62,10 +67,14 @@
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
-  margin-left: 22px;
   width: 100%;
 }
 
 .verb input::placeholder {
   color: #fbf9fd;
+  opacity: 0.56;
+}
+
+.verb-layout {
+  padding: 22px;
 }

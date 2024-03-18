@@ -78,7 +78,6 @@ input:checked + .temps-switch-wrapper .temps-switch-inner {
 
 .temps-first {
   border-top: 1px solid var(--blanc, #fbf9fd);
-  padding-top: 14px;
 }
 
 h3 {
@@ -89,7 +88,6 @@ h3 {
   font-weight: 700;
   line-height: normal;
   padding-top: 64px;
-  padding-left: 16px;
 }
 
 .temps-radio {
@@ -107,6 +105,8 @@ h3 {
 .themps-delete {
   opacity: 0.56;
   padding-top: 13px;
-  padding-right: 29px;
-  padding-left: 29px;
+}
+
+.temps-layout {
+  padding: 22px;
 }

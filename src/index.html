@@ -70,218 +70,224 @@
           <div class="col-5">
             <div class="verb">
               <h2>Verbes</h2>
-              <p class="delete">Tout supprimer</p>
-              <div>
-                <form>
-                  <input
-                    type="text"
-                    id="zoneDeTexte"
-                    name="zoneDeTexte"
-                    placeholder="AJOUTE UN VERBE"
-                  />
-                </form>
+              <div class="verb-layout">
+                <p class="delete">Tout supprimer</p>
+                <div>
+                  <form>
+                    <input
+                      type="text"
+                      id="zoneDeTexte"
+                      name="zoneDeTexte"
+                      placeholder="AJOUTE UN VERBE"
+                    />
+                  </form>
+                </div>
+                <div class="choice">
+                  <p>avoir</p>
+                  <img src="img/croix.png" alt="" />
+                </div>
+                <div class="choice">
+                  <p>faire</p>
+                  <img src="img/croix.png" alt="" />
+                </div>
               </div>
-              <div class="choice">
-                <p>avoir</p>
-                <img src="img/croix.png" alt="" />
-              </div>
-              <div class="choice"><p>faire</p></div>
-              <img src="img/croix.png" alt="" />
             </div>
           </div>
 
           <div class="col-7">
             <div class="temps">
               <h2>Temps</h2>
-              <div class="row">
-                <div class="col-4">
-                  <div class="themps-delete">
-                    <p>Tout cocher</p>
+              <div class="temps-layout">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="themps-delete">
+                      <p>Tout cocher</p>
+                    </div>
+                  </div>
+                  <div class="col-4 offset-4">
+                    <div class="themps-delete"><p>Tout décocher</p></div>
                   </div>
                 </div>
-                <div class="col-4 offset-4">
-                  <div class="themps-delete"><p>Tout décocher</p></div>
+                <h3>INDICATIF</h3>
+                <div class="temps-switch-line temps-first">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Présent</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Passé composé</p>
+                  </label>
                 </div>
-              </div>
-              <h3>INDICATIF</h3>
-              <div class="temps-switch-line temps-first">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Présent</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Passé composé</p>
-                </label>
-              </div>
-              <div class="temps-switch-line">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Imparfait</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Plus-que-parfait</p>
-                </label>
-              </div>
-              <div class="temps-switch-line">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Futurt</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Futur antérieur</p>
-                </label>
-              </div>
-              <div class="temps-switch-line">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Passé simple</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Passé antérieur</p>
-                </label>
-              </div>
+                <div class="temps-switch-line">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Imparfait</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Plus-que-parfait</p>
+                  </label>
+                </div>
+                <div class="temps-switch-line">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Futurt</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Futur antérieur</p>
+                  </label>
+                </div>
+                <div class="temps-switch-line">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Passé simple</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Passé antérieur</p>
+                  </label>
+                </div>
 
-              <h3>IMPERATIF</h3>
-              <div class="temps-switch-line temps-first">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Présent</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Passé</p>
-                </label>
-              </div>
+                <h3>IMPERATIF</h3>
+                <div class="temps-switch-line temps-first">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Présent</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Passé</p>
+                  </label>
+                </div>
 
-              <h3>SUBJONCTIF</h3>
-              <div class="temps-switch-line temps-first">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Présent</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Passé</p>
-                </label>
-              </div>
-              <div class="temps-switch-line">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Imparfait</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Plus-que-parfait</p>
-                </label>
-              </div>
+                <h3>SUBJONCTIF</h3>
+                <div class="temps-switch-line temps-first">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Présent</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Passé</p>
+                  </label>
+                </div>
+                <div class="temps-switch-line">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Imparfait</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Plus-que-parfait</p>
+                  </label>
+                </div>
 
-              <h3>CONDITIONNEL</h3>
-              <div class="temps-switch-line temps-first">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Présent</p>
-                </label>
-              </div>
-              <div class="temps-switch-line">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Passé 1</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Passé 2</p>
-                </label>
-              </div>
+                <h3>CONDITIONNEL</h3>
+                <div class="temps-switch-line temps-first">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Présent</p>
+                  </label>
+                </div>
+                <div class="temps-switch-line">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Passé 1</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Passé 2</p>
+                  </label>
+                </div>
 
-              <h3>PARTICIPE</h3>
-              <div class="temps-switch-line temps-first">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Présent</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Passé</p>
-                </label>
-              </div>
+                <h3>PARTICIPE</h3>
+                <div class="temps-switch-line temps-first">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Présent</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Passé</p>
+                  </label>
+                </div>
 
-              <h3>GERONDIF</h3>
-              <div class="temps-switch-line temps-first">
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Présent</p>
-                </label>
-                <label class="temps-switch">
-                  <input type="checkbox" name="conditions" />
-                  <div class="temps-switch-wrapper">
-                    <div class="temps-switch-inner"></div>
-                  </div>
-                  <p>Passé</p>
-                </label>
+                <h3>GERONDIF</h3>
+                <div class="temps-switch-line temps-first">
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Présent</p>
+                  </label>
+                  <label class="temps-switch">
+                    <input type="checkbox" name="conditions" />
+                    <div class="temps-switch-wrapper">
+                      <div class="temps-switch-inner"></div>
+                    </div>
+                    <p>Passé</p>
+                  </label>
+                </div>
               </div>
               <div class="temps-radio">
                 <input type="radio" name="pronouns" value="Tous les pronoms" />
@@ -308,8 +314,10 @@
             <p>christophe.roulet@edu-vd.ch</p>
           </div>
           <div class="col-2 offset-6">
-            <a href="#">Accueil</a>
-            <a href="#">Admin</a>
+            <div class="footer-admin">
+              <a href="#">Accueil</a>
+              <a href="#">Admin</a>
+            </div>
           </div>
         </div>
       </div>
