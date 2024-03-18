@@ -49,7 +49,6 @@ input:checked + .temps-switch-wrapper .temps-switch-inner {
 }
 
 .temps h2 {
-  height: 39px;
   flex-shrink: 0;
   color: var(--blanc, #fbf9fd);
   text-align: center;
@@ -58,6 +57,7 @@ input:checked + .temps-switch-wrapper .temps-switch-inner {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding: 22px;
   border-bottom: 3px solid var(--blanc, #fbf9fd);
 }
 
@@ -102,4 +102,11 @@ h3 {
   padding-left: 69px;
   padding-top: 54px;
   padding-bottom: 50px;
+}
+
+.themps-delete {
+  opacity: 0.56;
+  padding-top: 13px;
+  padding-right: 29px;
+  padding-left: 29px;
 }

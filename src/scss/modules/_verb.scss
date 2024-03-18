@@ -13,6 +13,7 @@
   font-weight: 700;
   line-height: normal;
   border-bottom: 3px solid var(--blanc, #fbf9fd);
+  padding: 22px;
 }
 
 .verb hr {
@@ -43,4 +44,28 @@
   line-height: normal;
   opacity: 0.56;
   text-align: right;
+  padding-top: 13px;
+  padding-right: 29px;
+}
+
+.verb input {
+  border-radius: 18px;
+  border: 3px solid var(--blanc, #fbf9fd);
+  background: #3e8169;
+  flex-shrink: 0;
+  color: var(--blanc, #fbf9fd);
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+  margin-left: 22px;
+  width: 100%;
+}
+
+.verb input::placeholder {
+  color: #fbf9fd;
 }

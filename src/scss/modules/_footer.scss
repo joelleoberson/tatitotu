@@ -11,3 +11,19 @@ footer p {
   line-height: normal;
   padding-bottom: 8px;
 }
+
+footer a {
+  color: var(--blanc, #fbf9fd);
+  font-family: Almarai;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  text-align: right;
+  gap: 15px;
+}
+
+footer a:hover {
+  color: var(--vert, #3e8169);
+}
