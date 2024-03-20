@@ -97,9 +97,6 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding-left: 69px;
-  padding-top: 54px;
-  padding-bottom: 50px;
 }
 
 .themps-delete {
@@ -109,4 +106,45 @@ h3 {
 
 .temps-layout {
   padding: 22px;
+}
+
+.temps-radio {
+  display: block;
+}
+
+.radio-placeholder {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border-radius: 8px;
+  background: #fbf9fd;
+  border-radius: 10px;
+}
+
+.radio-input {
+  display: none;
+  align-items: center;
+}
+
+.radio-placeholder div {
+  width: 11px;
+  height: 11px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+input:checked + .radio-placeholder div {
+  background: #3e8169;
+}
+
+.temps-radio-1 {
+  margin-top: 54px;
+  margin-left: 98px;
+}
+
+.temps-radio-2 {
+  margin-bottom: 50px;
+  padding-top: 8px;
+  margin-left: 98px;
 }

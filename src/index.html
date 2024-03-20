@@ -82,13 +82,15 @@
                     />
                   </form>
                 </div>
-                <div class="choice">
-                  <p>avoir</p>
-                  <img src="img/croix.png" alt="" />
-                </div>
-                <div class="choice">
-                  <p>faire</p>
-                  <img src="img/croix.png" alt="" />
+                <div class="verb-choice">
+                  <div class="choice">
+                    <p>avoir</p>
+                    <img src="img/croix.png" alt="" />
+                  </div>
+                  <div class="choice">
+                    <p>faire</p>
+                    <img src="img/croix.png" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -289,16 +291,31 @@
                   </label>
                 </div>
               </div>
-              <div class="temps-radio">
-                <input type="radio" name="pronouns" value="Tous les pronoms" />
-                Tous les pronoms <br />
+
+              <label class="temps-radio temps-radio-1">
                 <input
                   type="radio"
+                  class="radio-input"
+                  name="pronouns"
+                  value="Tous les pronoms"
+                />
+                <div class="radio-placeholder">
+                  <div></div>
+                </div>
+                Tous les pronoms
+              </label>
+              <label class="temps-radio temps-radio-2">
+                <input
+                  type="radio"
+                  class="radio-input"
                   name="pronouns"
                   value="Seulement il / ils"
                 />
+                <div class="radio-placeholder">
+                  <div></div>
+                </div>
                 Seulement il / ils
-              </div>
+              </label>
             </div>
           </div>
         </div>
