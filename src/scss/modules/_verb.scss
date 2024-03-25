@@ -37,6 +37,8 @@
   justify-content: space-between;
   margin-top: 15px;
   padding: 30px;
+  flex-direction: row;
+  align-items: center;
 }
 
 .delete {
@@ -76,7 +78,8 @@
 }
 
 .verb-layout {
-  padding: 22px;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .verb-choice {
